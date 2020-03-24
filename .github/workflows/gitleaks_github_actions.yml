@@ -8,7 +8,7 @@ jobs:
     runs-on: ubuntu-latest
     env:
       REPO: https://github.com/MeasureAuthoringTool/mat-tomcat
-      REMOTE_EXCLUDES_URL: https://github.com/casey-erdmann/bmat-gitleaks-automation/blob/master/mat-tomcat/gitleaks.toml
+      REMOTE_EXCLUDES_URL: https://raw.githubusercontent.com/casey-erdmann/bmat-gitleaks-automation/master/mat-tomcat/gitleaks.toml
       GITLEAKS_VERSION: v3.0.3
     steps:
     - name: Execute Gitleaks
